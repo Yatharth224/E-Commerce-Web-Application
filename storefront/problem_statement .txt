@@ -1,0 +1,17 @@
+
+Problem Statement 
+
+
+
+Detailed Problem Statement ------
+
+In today's digital marketplace, businesses require a secure, scalable, and high-performance e-commerce backend system. The objective of this project is to design and develop a robust e-commerce backend using Django and Django REST Framework.
+
+The system should:
+
+-- Allow users to register, login, and authenticate securely using JWT.
+-- Provide RESTful APIs for products, categories, carts, and orders.
+-- Enable secure order placement and payment processing.
+-- Allow admin users to manage inventory and orders using Django Admin.
+-- Use Celery for background tasks such as sending order confirmation emails.
+--Implement caching to improve API response time.
