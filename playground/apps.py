@@ -1,1 +1,1 @@
-from django.apps
+from django.apps import AppConfig
