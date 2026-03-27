@@ -10,3 +10,4 @@ RESTful API development using DRF
 JWT-based authentication & authorization
 Background task processing with Celery
 Redis-based caching
+Automated testing (unit + performance)
