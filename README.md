@@ -9,3 +9,4 @@ Django fundamentals with modular architecture
 RESTful API development using DRF
 JWT-based authentication & authorization
 Background task processing with Celery
+Redis-based caching
