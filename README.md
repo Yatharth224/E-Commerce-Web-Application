@@ -8,3 +8,4 @@ This project is a production-ready E-Commerce Backend System built using Django 
 Django fundamentals with modular architecture
 RESTful API development using DRF
 JWT-based authentication & authorization
+Background task processing with Celery
