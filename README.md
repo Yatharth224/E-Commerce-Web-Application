@@ -6,3 +6,4 @@ This project is a production-ready E-Commerce Backend System built using Django 
 
 🚀 Key Features
 Django fundamentals with modular architecture
+RESTful API development using DRF
