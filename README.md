@@ -13,3 +13,7 @@ Redis-based caching
 Automated testing (unit + performance)
 Logging & monitoring
 Production-ready deployment
+
+
+🏗️ System Architecture
+High-Level Architecture
