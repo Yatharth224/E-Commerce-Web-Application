@@ -34,3 +34,5 @@ Additional Components:
 - Redis (Caching + Celery Broker)
 - Celery Workers (Async Tasks)
 - Nginx + Gunicorn (Production Server)
+
+📂 Project Structure
