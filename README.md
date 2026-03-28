@@ -17,3 +17,20 @@ Production-ready deployment
 
 🏗️ System Architecture
 High-Level Architecture
+
+
+Client (React / Web / Mobile)
+        |
+        v
+API Layer (Django REST Framework)
+        |
+        v
+Business Logic Layer (Services / Managers)
+        |
+        v
+Database Layer (PostgreSQL / MySQL)
+
+Additional Components:
+- Redis (Caching + Celery Broker)
+- Celery Workers (Async Tasks)
+- Nginx + Gunicorn (Production Server)
