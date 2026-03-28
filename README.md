@@ -12,3 +12,4 @@ Background task processing with Celery
 Redis-based caching
 Automated testing (unit + performance)
 Logging & monitoring
+Production-ready deployment
