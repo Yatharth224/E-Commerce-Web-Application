@@ -45,3 +45,11 @@ ecommerce_project/
 │   ├── urls.py
 │   ├── asgi.py
 │   └── wsgi.py
+│
+├── apps/
+│   ├── users/
+│   ├── products/
+│   ├── orders/
+│   ├── cart/
+│   └── payments/
+│
