@@ -53,3 +53,9 @@ ecommerce_project/
 │   ├── cart/
 │   └── payments/
 │
+│
+├── core/
+│   ├── utils/
+│   ├── permissions/
+│   └── services/
+│
