@@ -59,3 +59,7 @@ ecommerce_project/
 │   ├── permissions/
 │   └── services/
 │
+│
+├── celery.py
+├── requirements.txt
+└── Dockerfile
