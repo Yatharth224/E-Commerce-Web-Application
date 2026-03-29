@@ -63,3 +63,7 @@ ecommerce_project/
 ├── celery.py
 ├── requirements.txt
 └── Dockerfile
+
+🧠 Core Concepts Implemented
+1. Django Fundamentals
+Models for database schema
