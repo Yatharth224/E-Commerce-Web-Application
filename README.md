@@ -36,3 +36,12 @@ Additional Components:
 - Nginx + Gunicorn (Production Server)
 
 📂 Project Structure
+
+ecommerce_project/
+│
+├── manage.py
+├── ecommerce_project/
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
