@@ -70,3 +70,10 @@ Models for database schema
 Views & URL routing
 Django Admin customization
 ORM queries & optimization
+
+Example:
+
+class Product(models.Model):
+    title = models.CharField(max_length=255)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
+    stock = models.IntegerField()
