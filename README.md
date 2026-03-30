@@ -68,3 +68,4 @@ ecommerce_project/
 1. Django Fundamentals
 Models for database schema
 Views & URL routing
+Django Admin customization
