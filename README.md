@@ -69,3 +69,4 @@ ecommerce_project/
 Models for database schema
 Views & URL routing
 Django Admin customization
+ORM queries & optimization
