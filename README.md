@@ -88,3 +88,6 @@ Example:
 class ProductViewSet(ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+ 3. Authentication & Security
+JWT Authentication   
