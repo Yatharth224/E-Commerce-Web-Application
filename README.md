@@ -82,3 +82,4 @@ class Product(models.Model):
  2. Django REST Framework (DRF)   
  Serializers for data transformation
 ViewSets & APIViews
+Pagination, filtering, searching
