@@ -83,3 +83,8 @@ class Product(models.Model):
  Serializers for data transformation
 ViewSets & APIViews
 Pagination, filtering, searching
+
+Example:
+class ProductViewSet(ModelViewSet):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
