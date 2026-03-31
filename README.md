@@ -91,3 +91,5 @@ class ProductViewSet(ModelViewSet):
 
  3. Authentication & Security
 JWT Authentication   
+Access & Refresh Tokens
+Role-based permissions
