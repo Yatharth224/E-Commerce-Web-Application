@@ -104,3 +104,4 @@ User Login → Generate Access Token → Access Protected APIs
 Used for:            
 Sending emails
 Order processing
+Notifications
