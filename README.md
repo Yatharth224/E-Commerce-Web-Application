@@ -105,3 +105,10 @@ Used for:
 Sending emails
 Order processing
 Notifications
+
+
+Example:
+@shared_task
+def send_order_email(order_id):
+    # async email logic
+    pass
