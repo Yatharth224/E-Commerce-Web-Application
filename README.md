@@ -102,3 +102,4 @@ User Login → Generate Access Token → Access Protected APIs
 4. Background Tasks (Celery)
 
 Used for:            
+Sending emails
