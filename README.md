@@ -97,3 +97,8 @@ Role-based permissions
 Flow:
 User Login → Generate Access Token → Access Protected APIs
             → Refresh Token → Get New Access Token
+
+
+4. Background Tasks (Celery)
+
+Used for:            
