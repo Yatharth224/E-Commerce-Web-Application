@@ -148,3 +148,5 @@ def send_order_email(order_id):
 
 Improves performance
 Reduces DB load
+
+Example:
