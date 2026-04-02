@@ -146,3 +146,4 @@ def send_order_email(order_id):
 
 ### 5. Caching (Redis)
 
+Improves performance
