@@ -150,3 +150,7 @@ Improves performance
 Reduces DB load
 
 Example:
+
+@cache_page(60 * 5)
+def product_list(request):
+    return Response(data)
