@@ -156,3 +156,6 @@ def product_list(request):
     return Response(data)
 
 6. Testing Strategy    
+
+Unit Testing (Django TestCase)
+API Testing (DRF APITestCase)
