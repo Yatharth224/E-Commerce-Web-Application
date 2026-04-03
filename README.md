@@ -160,3 +160,5 @@ def product_list(request):
 Unit Testing (Django TestCase)
 API Testing (DRF APITestCase)
 Performance Testing
+
+7. Logging & Monitoring
