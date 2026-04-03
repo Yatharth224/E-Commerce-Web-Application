@@ -164,3 +164,4 @@ Performance Testing
 7. Logging & Monitoring
 
 Structured logging
+Error tracking
