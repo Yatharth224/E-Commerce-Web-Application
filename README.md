@@ -162,3 +162,5 @@ API Testing (DRF APITestCase)
 Performance Testing
 
 7. Logging & Monitoring
+
+Structured logging
