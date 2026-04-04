@@ -172,3 +172,5 @@ Debug vs Production logs
 Entities:
 User
 Product
+Category
+Cart
