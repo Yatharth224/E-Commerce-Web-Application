@@ -174,3 +174,5 @@ User
 Product
 Category
 Cart
+Order
+Payment
