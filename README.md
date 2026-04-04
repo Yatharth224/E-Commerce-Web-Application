@@ -176,3 +176,9 @@ Category
 Cart
 Order
 Payment
+
+
+Relationships:
+User → Orders (1:N)
+Order → Products (M:N)
+Product → Category (N:1)
