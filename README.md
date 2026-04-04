@@ -170,3 +170,5 @@ Debug vs Production logs
 
 ⚙️ Database Design
 Entities:
+User
+Product
