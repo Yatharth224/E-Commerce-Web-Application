@@ -200,3 +200,4 @@ def product_list(request):
 | Method | Endpoint         | Description   |
 | ------ | ---------------- | ------------- |
 | GET    | /api/products/   | List products |
+| POST   | /api/auth/login/ | User login    |
