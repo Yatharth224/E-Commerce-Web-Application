@@ -196,3 +196,4 @@ def product_list(request):
 
 ## 🔄 API Design
 
+### Sample Endpoints:
