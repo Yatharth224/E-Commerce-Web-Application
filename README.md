@@ -198,3 +198,5 @@ def product_list(request):
 
 ### Sample Endpoints:
 | Method | Endpoint         | Description   |
+| ------ | ---------------- | ------------- |
+| GET    | /api/products/   | List products |
