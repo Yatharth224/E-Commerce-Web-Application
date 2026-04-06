@@ -146,39 +146,53 @@ def send_order_email(order_id):
 
 ### 5. Caching (Redis)
 
-Improves performance
-Reduces DB load
+* Improves performance
+* Reduces DB load
 
 Example:
 
+```python
 @cache_page(60 * 5)
 def product_list(request):
     return Response(data)
+```
 
-6. Testing Strategy    
+---
 
-Unit Testing (Django TestCase)
-API Testing (DRF APITestCase)
-Performance Testing
+### 6. Testing Strategy
 
-7. Logging & Monitoring
+* Unit Testing (Django TestCase)
+* API Testing (DRF APITestCase)
+* Performance Testing
 
-Structured logging
-Error tracking
-Debug vs Production logs
+---
 
+### 7. Logging & Monitoring
 
-⚙️ Database Design
-Entities:
-User
-Product
-Category
-Cart
-Order
-Payment
+* Structured logging
+* Error tracking
+* Debug vs Production logs
 
+---
 
-Relationships:
-User → Orders (1:N)
-Order → Products (M:N)
-Product → Category (N:1)
+## ⚙️ Database Design
+
+### Entities:
+
+* User
+* Product
+* Category
+* Cart
+* Order
+* Payment
+
+### Relationships:
+
+* User → Orders (1:N)
+* Order → Products (M:N)
+* Product → Category (N:1)
+
+---
+
+## 🔄 API Design
+
