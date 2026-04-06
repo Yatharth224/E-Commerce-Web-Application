@@ -202,3 +202,4 @@ def product_list(request):
 | GET    | /api/products/   | List products |
 | POST   | /api/auth/login/ | User login    |
 | POST   | /api/orders/     | Create order  |
+| GET    | /api/cart/       | View cart     |
