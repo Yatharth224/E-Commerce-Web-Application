@@ -203,3 +203,9 @@ def product_list(request):
 | POST   | /api/auth/login/ | User login    |
 | POST   | /api/orders/     | Create order  |
 | GET    | /api/cart/       | View cart     |
+
+---
+
+## 🔁 Application Flow (End-to-End)
+
+### 1. User Authentication Flow
