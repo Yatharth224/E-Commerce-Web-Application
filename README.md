@@ -226,3 +226,5 @@ User → Login Request (username, password)
 
 ```
 User → Request Product List
+    → DRF ViewSet
+     → Check Cache (Redis)
