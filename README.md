@@ -216,3 +216,6 @@ User → Login Request (username, password)
      → Django Auth + JWT
      → Access Token + Refresh Token Generated
      → Client Stores Token
+     → User Accesses Protected APIs using Access Token
+     → Token Expired → Use Refresh Token → New Access Token
+```
