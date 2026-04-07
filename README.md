@@ -219,3 +219,10 @@ User → Login Request (username, password)
      → User Accesses Protected APIs using Access Token
      → Token Expired → Use Refresh Token → New Access Token
 ```
+
+---
+
+### 2. Product Browsing Flow
+
+```
+User → Request Product List
