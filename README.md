@@ -206,10 +206,11 @@ def product_list(request):
 
 ---
 
+---
+
 ## 🔁 Application Flow (End-to-End)
 
 ### 1. User Authentication Flow
-
 
 ```
 User → Login Request (username, password)
