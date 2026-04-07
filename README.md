@@ -197,14 +197,13 @@ def product_list(request):
 ## 🔄 API Design
 
 ### Sample Endpoints:
+
 | Method | Endpoint         | Description   |
 | ------ | ---------------- | ------------- |
 | GET    | /api/products/   | List products |
 | POST   | /api/auth/login/ | User login    |
 | POST   | /api/orders/     | Create order  |
 | GET    | /api/cart/       | View cart     |
-
----
 
 ---
 
