@@ -239,3 +239,4 @@ User → Request Product List
 ```
 User → Add Product to Cart  
      → API Validates Product & Stock
+      → Cart Model Updated
