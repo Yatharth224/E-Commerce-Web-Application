@@ -241,3 +241,4 @@ User → Add Product to Cart
      → API Validates Product & Stock
       → Cart Model Updated
        → Response Sent to Client
+```
