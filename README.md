@@ -237,4 +237,5 @@ User → Request Product List
 ### 3. Add to Cart Flow
 
 ```
-User → Add Product to Cart
+User → Add Product to Cart  
+     → API Validates Product & Stock
