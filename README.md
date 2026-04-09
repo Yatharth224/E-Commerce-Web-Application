@@ -244,6 +244,8 @@ User → Add Product to Cart
 ```
 
 
+---
+
 ### 4. Order Placement Flow (Critical Flow)
 
 ```
@@ -251,6 +253,9 @@ User → Place Order
      → Validate Cart Items
      → Create Order in DB
      → Deduct Stock
-      → Trigger Celery Task
-       → Send Email / Notification
-    → Return Order Confirmation   
+     → Trigger Celery Task
+         → Send Email / Notification
+     → Return Order Confirmation
+```
+
+---
