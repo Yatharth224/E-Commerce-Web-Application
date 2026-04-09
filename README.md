@@ -242,3 +242,10 @@ User → Add Product to Cart
      → Cart Model Updated
      → Response Sent to Client
 ```
+
+
+### 4. Order Placement Flow (Critical Flow)
+
+```
+User → Place Order
+     → Validate Cart Items
