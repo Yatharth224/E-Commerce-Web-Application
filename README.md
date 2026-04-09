@@ -253,3 +253,4 @@ User → Place Order
      → Deduct Stock
       → Trigger Celery Task
        → Send Email / Notification
+    → Return Order Confirmation   
