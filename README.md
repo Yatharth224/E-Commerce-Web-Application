@@ -252,3 +252,4 @@ User → Place Order
      → Create Order in DB
      → Deduct Stock
       → Trigger Celery Task
+       → Send Email / Notification
