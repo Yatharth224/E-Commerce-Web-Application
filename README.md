@@ -249,3 +249,5 @@ User → Add Product to Cart
 ```
 User → Place Order
      → Validate Cart Items
+     → Create Order in DB
+     → Deduct Stock
