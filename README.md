@@ -251,3 +251,4 @@ User → Place Order
      → Validate Cart Items
      → Create Order in DB
      → Deduct Stock
+      → Trigger Celery Task
