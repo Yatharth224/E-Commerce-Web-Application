@@ -258,13 +258,13 @@ User → Place Order
      → Return Order Confirmation
 ```
 
----
 ### 5. Background Task Flow (Celery)
 
-``
-Django App → Sends Task to Redis Broker
-
-           → Celery Worker Picks Task
-              → Executes (Email / Notification / Processing)
-                → Updates Status (if required)
 ```
+Django App → Sends Task to Redis Broker
+           → Celery Worker Picks Task
+           → Executes (Email / Notification / Processing)
+           → Updates Status (if required)
+```
+
+---
