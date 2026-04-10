@@ -263,3 +263,6 @@ User → Place Order
 
 ``
 Django App → Sends Task to Redis Broker
+
+           → Celery Worker Picks Task
+          
