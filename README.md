@@ -260,3 +260,6 @@ User → Place Order
 
 ---
 ### 5. Background Task Flow (Celery)
+
+``
+Django App → Sends Task to Redis Broker
