@@ -259,3 +259,4 @@ User → Place Order
 ```
 
 ---
+### 5. Background Task Flow (Celery)
