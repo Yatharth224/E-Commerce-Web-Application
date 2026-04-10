@@ -266,3 +266,5 @@ Django App → Sends Task to Redis Broker
 
            → Celery Worker Picks Task
               → Executes (Email / Notification / Processing)
+                → Updates Status (if required)
+```
