@@ -278,3 +278,7 @@ Django App → Sends Task to Redis Broker
 | GET | /api/cart/ | View cart |
 
 ---
+
+## 🔐 Security Best Practices
+
+* JWT-based authentication
