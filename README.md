@@ -268,3 +268,7 @@ Django App → Sends Task to Redis Broker
 ```
 
 ---
+
+---
+
+-----|---------|------------|
