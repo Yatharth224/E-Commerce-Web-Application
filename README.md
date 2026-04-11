@@ -272,3 +272,4 @@ Django App → Sends Task to Redis Broker
 ---
 
 -----|---------|------------|
+| GET | /api/products/ | List products |
