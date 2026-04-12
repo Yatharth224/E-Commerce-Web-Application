@@ -282,3 +282,4 @@ Django App → Sends Task to Redis Broker
 ## 🔐 Security Best Practices
 
 * JWT-based authentication
+* Password hashing
