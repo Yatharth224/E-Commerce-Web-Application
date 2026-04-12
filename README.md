@@ -285,8 +285,6 @@ Django App → Sends Task to Redis Broker
 * Password hashing
 * Input validation
 * Rate limiting
-* JWT-based authentication
-* Password hashing
-* Input validation
-* Rate limiting
 * Secure headers
+
+---
