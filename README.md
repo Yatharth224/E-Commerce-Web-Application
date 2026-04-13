@@ -292,3 +292,4 @@ Django App → Sends Task to Redis Broker
 ## 🚀 Deployment Architecture
 
 ### Stack:
+* Gunicorn (WSGI server)
