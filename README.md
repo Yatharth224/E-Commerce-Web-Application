@@ -288,3 +288,7 @@ Django App → Sends Task to Redis Broker
 * Secure headers
 
 ---
+
+## 🚀 Deployment Architecture
+
+### Stack:
