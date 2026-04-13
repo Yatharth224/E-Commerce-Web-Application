@@ -293,3 +293,4 @@ Django App → Sends Task to Redis Broker
 
 ### Stack:
 * Gunicorn (WSGI server)
+* Nginx (Reverse proxy)
