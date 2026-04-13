@@ -296,3 +296,5 @@ Django App → Sends Task to Redis Broker
 * Nginx (Reverse proxy)
 * Docker (Containerization)
 * Redis (Cache + Broker)
+
+### Flow:
