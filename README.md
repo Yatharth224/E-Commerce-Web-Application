@@ -295,3 +295,4 @@ Django App → Sends Task to Redis Broker
 * Gunicorn (WSGI server)
 * Nginx (Reverse proxy)
 * Docker (Containerization)
+* Redis (Cache + Broker)
