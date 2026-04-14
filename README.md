@@ -311,3 +311,5 @@ User → Nginx → Gunicorn → Django App → Database
 * Caching frequently accessed data
 * Async processing using Celery
 * Pagination for large datasets
+
+---
