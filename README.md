@@ -310,3 +310,4 @@ User → Nginx → Gunicorn → Django App → Database
 * Query optimization using select_related & prefetch_related
 * Caching frequently accessed data
 * Async processing using Celery
+* Pagination for large datasets
