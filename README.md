@@ -316,3 +316,5 @@ User → Nginx → Gunicorn → Django App → Database
 
 
 ## 📦 Future Enhancements
+
+* AI-based recommendation system
