@@ -309,3 +309,4 @@ User → Nginx → Gunicorn → Django App → Database
 ## 📊 Performance Optimization
 * Query optimization using select_related & prefetch_related
 * Caching frequently accessed data
+* Async processing using Celery
