@@ -303,3 +303,7 @@ Django App → Sends Task to Redis Broker
 User → Nginx → Gunicorn → Django App → Database
                       → Redis → Celery Workers
 ```
+
+---
+
+## 📊 Performance Optimization
