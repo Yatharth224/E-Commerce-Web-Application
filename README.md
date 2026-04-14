@@ -298,3 +298,8 @@ Django App → Sends Task to Redis Broker
 * Redis (Cache + Broker)
 
 ### Flow:
+
+```
+User → Nginx → Gunicorn → Django App → Database
+                      → Redis → Celery Workers
+```
