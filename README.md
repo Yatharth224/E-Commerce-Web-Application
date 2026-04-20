@@ -320,3 +320,4 @@ User → Nginx → Gunicorn → Django App → Database
 * AI-based recommendation system
 * Real-time notifications (WebSockets)
 Payment gateway integration
+Microservices architecture
