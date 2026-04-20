@@ -243,7 +243,6 @@ User → Add Product to Cart
      → Response Sent to Client
 ```
 
-
 ---
 
 ### 4. Order Placement Flow (Critical Flow)
@@ -258,6 +257,8 @@ User → Place Order
      → Return Order Confirmation
 ```
 
+---
+
 ### 5. Background Task Flow (Celery)
 
 ```
@@ -266,8 +267,6 @@ Django App → Sends Task to Redis Broker
            → Executes (Email / Notification / Processing)
            → Updates Status (if required)
 ```
-
----
 
 ---
 
@@ -292,6 +291,7 @@ Django App → Sends Task to Redis Broker
 ## 🚀 Deployment Architecture
 
 ### Stack:
+
 * Gunicorn (WSGI server)
 * Nginx (Reverse proxy)
 * Docker (Containerization)
@@ -307,6 +307,7 @@ User → Nginx → Gunicorn → Django App → Database
 ---
 
 ## 📊 Performance Optimization
+
 * Query optimization using select_related & prefetch_related
 * Caching frequently accessed data
 * Async processing using Celery
@@ -314,13 +315,10 @@ User → Nginx → Gunicorn → Django App → Database
 
 ---
 
-
 ## 📦 Future Enhancements
 
 * AI-based recommendation system
 * Real-time notifications (WebSockets)
-Payment gateway integration
-Microservices architecture
+* Payment gateway integration
+* Microservices architecture
 
-🎯 Conclusion
-This project represents a scalable, production-ready backend system that follows industry best
