@@ -328,3 +328,6 @@ User → Nginx → Gunicorn → Django App → Database
 
 This project represents a **scalable, production-ready backend system** that follows industry best practices. It is designed to handle real-world e-commerce workloads with efficiency, security, and maintainability.
 
+---
+
+## 👨‍💻 Author
