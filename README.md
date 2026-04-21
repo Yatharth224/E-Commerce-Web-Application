@@ -337,3 +337,4 @@ This project represents a **scalable, production-ready backend system** that fol
 ---
 
 ## ⭐ Notes
+* Designed for learning + production use
