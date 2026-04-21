@@ -332,7 +332,7 @@ This project represents a **scalable, production-ready backend system** that fol
 
 ## 👨‍💻 Author
 
-*Yatharth Chouhan**
+*Yatharth Singh Chouhan**
 
 ---
 
