@@ -340,6 +340,8 @@ Used for:
 * Product listing cache
 * Popular products cache
 * Session storage
+* Rate limiting
+* API response caching
 
 
 
