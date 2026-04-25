@@ -331,6 +331,10 @@ User → Nginx → Gunicorn → Django App → Database
 
 Redis is used in this architecture for two major purposes:
 
+### 1. Caching Layer
+
+Redis stores frequently accessed data in memory.
+
 
 
 
