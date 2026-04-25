@@ -324,6 +324,16 @@ User → Nginx → Gunicorn → Django App → Database
 
 ---
 
+
+## 🧵 Redis and Celery Integration
+
+## Why Redis is Used?
+
+Redis is used in this architecture for two major purposes:
+
+
+
+
 ## 🎯 Conclusion
 
 This project represents a **scalable, production-ready backend system** that follows industry best practices. It is designed to handle real-world e-commerce workloads with efficiency, security, and maintainability.
