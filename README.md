@@ -343,6 +343,11 @@ Used for:
 * Rate limiting
 * API response caching
 
+Flow:
+
+```text
+Client Request
+
 
 
 
