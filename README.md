@@ -335,6 +335,12 @@ Redis is used in this architecture for two major purposes:
 
 Redis stores frequently accessed data in memory.
 
+Used for:
+
+* Product listing cache
+* Popular products cache
+* Session storage
+
 
 
 
