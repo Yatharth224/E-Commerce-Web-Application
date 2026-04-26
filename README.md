@@ -355,17 +355,14 @@ Check Redis Cache
  └── Cache Miss → Query Database
                 → Store Result in Redis
                 → Return Response
-```
+```s
 
 
 Benefits:
 
-
-
 * Reduces database load
 * Faster response time
-
-
+* Improves scalability
 
 
 
