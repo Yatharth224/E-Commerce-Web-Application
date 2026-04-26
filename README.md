@@ -347,6 +347,16 @@ Flow:
 
 ```text
 Client Request
+   ↓
+Django API
+   ↓
+Check Redis Cache
+ ├── Cache Hit  → Return Data
+ └── Cache Miss → Query Database
+                → Store Result in Redis
+                → Return Response
+```
+
 
 
 
