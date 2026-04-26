@@ -360,6 +360,9 @@ Check Redis Cache
 
 Benefits:
 
+* Reduces database load
+
+
 
 
 
