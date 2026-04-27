@@ -381,6 +381,7 @@ if not products:
 
 
 ## 2. Redis as Celery Message Broker
+Redis also acts as a queue/message broker between Django and Celery workers.
 
 
 
