@@ -355,14 +355,28 @@ Check Redis Cache
  └── Cache Miss → Query Database
                 → Store Result in Redis
                 → Return Response
-```s
-
+```
 
 Benefits:
 
 * Reduces database load
 * Faster response time
 * Improves scalability
+
+Example:
+
+```python
+from django.core.cache import cache
+
+products = cache.get('all_products')
+
+if not products:
+    products = Product.objects.all()
+    cache.set('all_products', products, timeout=300)
+```
+
+---
+
 
 
 
