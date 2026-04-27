@@ -385,7 +385,7 @@ Redis also acts as a queue/message broker between Django and Celery workers.
 Instead of executing long tasks during API request-response cycle, tasks are pushed into Redis queue.
 
 Examples:
-
+* Send order confirmation emails
 
 
 
