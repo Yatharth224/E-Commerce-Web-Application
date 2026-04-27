@@ -375,7 +375,12 @@ if not products:
     cache.set('all_products', products, timeout=300)
 ```
 
+
+
 ---
+
+
+## 2. Redis as Celery Message Broker
 
 
 
