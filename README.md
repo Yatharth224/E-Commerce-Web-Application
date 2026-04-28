@@ -389,6 +389,7 @@ Examples:
 * Invoice generation
 * Inventory sync
 * Payment verification
+* Notifications
 
 
 
