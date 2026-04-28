@@ -391,6 +391,22 @@ Examples:
 * Payment verification
 * Notifications
 
+Flow:
+
+```text
+User Places Order
+   ↓
+Django API
+   ↓
+Task Sent to Redis Queue
+   ↓
+Celery Worker Picks Task
+   ↓
+Executes Task Asynchronously
+```
+
+---
+
 
 
 ## 🎯 Conclusion
