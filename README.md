@@ -388,6 +388,7 @@ Examples:
 * Send order confirmation emails
 * Invoice generation
 * Inventory sync
+* Payment verification
 
 
 
