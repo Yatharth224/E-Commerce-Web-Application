@@ -386,6 +386,7 @@ Instead of executing long tasks during API request-response cycle, tasks are pus
 
 Examples:
 * Send order confirmation emails
+* Invoice generation
 
 
 
