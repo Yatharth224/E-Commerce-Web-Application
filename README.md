@@ -427,6 +427,14 @@ Task Execution
 
 ## Celery Configuration
 
+```python
+# celery.py
+from celery import Celery
+
+app = Celery('ecommerce')
+app.config_from_object('django.conf:settings', namespace='CELERY')
+app.autodiscover_tasks()
+```
 
 
 
