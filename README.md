@@ -406,6 +406,8 @@ Executes Task Asynchronously
 ```
 
 ---
+## Celery Configuration Architecture
+
 
 
 
