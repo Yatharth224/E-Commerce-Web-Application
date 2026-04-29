@@ -408,6 +408,19 @@ Executes Task Asynchronously
 ---
 ## Celery Configuration Architecture
 
+```text
+Client
+ ↓
+Django App
+ ↓
+Celery Producer
+ ↓
+Redis Broker
+ ↓
+Celery Worker
+ ↓
+Task Execution
+```
 
 
 
