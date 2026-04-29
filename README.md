@@ -423,6 +423,12 @@ Task Execution
 ```
 
 
+--
+
+## Celery Configuration
+
+
+
 
 ## 🎯 Conclusion
 
