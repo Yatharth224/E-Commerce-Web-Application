@@ -465,6 +465,8 @@ send_order_email.delay(order.id)
 
 ---
 
+## Real World Order Flow Using Redis + Celery
+
 
 
 
