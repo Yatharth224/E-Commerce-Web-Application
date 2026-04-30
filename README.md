@@ -450,6 +450,11 @@ CELERY_RESULT_BACKEND='redis://localhost:6379/0'
 from celery import shared_task
 
 
+@shared_task
+def send_order_email(order_id):
+    print(f'Sending mail for order {order_id}')
+```
+
 
 
 ## 🎯 Conclusion
