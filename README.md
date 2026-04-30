@@ -461,6 +461,11 @@ send_order_email.delay(order.id)
 ```
 
 
+`.delay()` sends task to Redis queue instead of executing immediately.
+
+---
+
+
 
 
 ## 🎯 Conclusion
