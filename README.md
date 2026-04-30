@@ -454,6 +454,12 @@ from celery import shared_task
 def send_order_email(order_id):
     print(f'Sending mail for order {order_id}')
 ```
+Calling task:
+
+```python
+send_order_email.delay(order.id)
+```
+
 
 
 
