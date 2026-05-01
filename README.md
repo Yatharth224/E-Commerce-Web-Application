@@ -484,6 +484,8 @@ Celery Workers process tasks in background
 User gets fast response without waiting
 ```
 
+---
+
 
 
 ## 🎯 Conclusion
