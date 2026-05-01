@@ -471,6 +471,13 @@ send_order_email.delay(order.id)
 Customer Checkout
 ↓
 Order Saved in PostgreSQL
+↓
+Redis Queue receives tasks:
+   • Send confirmation email
+   • Update inventory
+   • Generate invoice
+   • Trigger notification
+↓
 
 
 
