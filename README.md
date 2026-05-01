@@ -485,6 +485,7 @@ User gets fast response without waiting
 ```
 
 ---
+## Why Redis + Celery Together?
 
 
 
