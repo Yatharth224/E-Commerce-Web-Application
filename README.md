@@ -478,6 +478,11 @@ Redis Queue receives tasks:
    • Generate invoice
    • Trigger notification
 ↓
+↓
+Celery Workers process tasks in background
+↓
+User gets fast response without waiting
+```
 
 
 
