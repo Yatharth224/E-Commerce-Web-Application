@@ -493,6 +493,7 @@ User gets fast response without waiting
 | Celery    | Async Task Processing  |
 | Django    | Main Application Logic |
 
+Together they provide:
 
 
 
