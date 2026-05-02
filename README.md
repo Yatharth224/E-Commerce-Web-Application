@@ -487,6 +487,13 @@ User gets fast response without waiting
 ---
 ## Why Redis + Celery Together?
 
+| Component | Role                   |
+| --------- | ---------------------- |
+| Redis     | Cache + Message Broker |
+| Celery    | Async Task Processing  |
+| Django    | Main Application Logic |
+
+
 
 
 ## 🎯 Conclusion
