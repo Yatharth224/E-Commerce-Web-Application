@@ -496,6 +496,7 @@ User gets fast response without waiting
 Together they provide:
 
 * Faster APIs
+* Non-blocking background jobs
 
 
 
