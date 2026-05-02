@@ -495,6 +495,8 @@ User gets fast response without waiting
 
 Together they provide:
 
+* Faster APIs
+
 
 
 ## 🎯 Conclusion
