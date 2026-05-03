@@ -516,7 +516,7 @@ This project represents a **scalable, production-ready backend system** that fol
 
 ---
 
-## ⭐ Note
+## ⭐ Notes
 * Designed for learning + production use
 * Easily extendable
 * Clean and modular architecture
