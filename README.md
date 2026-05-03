@@ -503,6 +503,7 @@ Together they provide:
 ---
 
 
+
 ## 🎯 Conclusion
 
 This project represents a **scalable, production-ready backend system** that follows industry best practices. It is designed to handle real-world e-commerce workloads with efficiency, security, and maintainability.
@@ -515,7 +516,7 @@ This project represents a **scalable, production-ready backend system** that fol
 
 ---
 
-##  Notes
+## ⭐ Note
 * Designed for learning + production use
 * Easily extendable
 * Clean and modular architecture
