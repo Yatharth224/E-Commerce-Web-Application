@@ -515,7 +515,6 @@ This project represents a **scalable, production-ready backend system** that fol
 *Yatharth Singh Chouhan**
 
 ---
-
 ## ⭐ Notes
 * Designed for learning + production use
 * Easily extendable
