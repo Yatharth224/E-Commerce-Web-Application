@@ -43,7 +43,7 @@ Additional Components:
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure 
 
 ```
 ecommerce_project/
@@ -501,8 +501,6 @@ Together they provide:
 * Improved user experience
 
 ---
-
-
 
 
 ## 🎯 Conclusion
