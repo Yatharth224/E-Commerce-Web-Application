@@ -1,4 +1,4 @@
-
+"""
 
 from django.shortcuts import render  
 from django.db.models.aggregates import Count, Min, Max, Avg, Sum
@@ -17,4 +17,24 @@ def say_hello(request):
 
 
 
-    return render(request, 'hello.html', {'name': 'Yatharth', 'result': list(queryset)})
+    return render(request, 'hello.html', {'name': 'Yatharth', 'result': list(queryset)})"""
+
+
+
+
+
+
+
+
+
+from django.shortcuts import render, get_object_or_404
+from .models import Product
+
+def product_list(request):
+    products = Product.objects.all()
+    return render(request, 'products/list.html', {'products': products})
+
+
+def product_detail(request, id):
+    product = get_object_or_404(Product, pk=id)
+    return render(request, 'products/detail.html', {'product': product})
