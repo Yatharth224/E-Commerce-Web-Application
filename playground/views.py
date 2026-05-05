@@ -55,4 +55,4 @@ def collection_detail(request, id):
     return render(request, 'collections/detail.html', {
         'collection': collection,
         'products': products
-    })
+    }
