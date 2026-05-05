@@ -44,7 +44,15 @@ def collection_list(request):
     collections = Collection.objects.all()
     return render(request, 'collections/list.html', {'collections': collections})
 
+def collection_list(request):
+    collections = Collection.objects.all()
+    return render(request, 'collections/list.html', {'collections': collections})
+
 
 def collection_detail(request, id):
     collection = get_object_or_404(Collection, pk=id)
-   
+    products = Product.objects.filter(collection=collection)
+    return render(request, 'collections/detail.html', {
+        'collection': collection,
+        'products': products
+    })
