@@ -38,3 +38,7 @@ def product_list(request):
 def product_detail(request, id):
     product = get_object_or_404(Product, pk=id)
     return render(request, 'products/detail.html', {'product': product})
+
+
+def collection_list(request):
+    
