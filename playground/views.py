@@ -41,4 +41,5 @@ def product_detail(request, id):
 
 
 def collection_list(request):
+    collections = Collection.objects.all()
     
