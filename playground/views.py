@@ -73,3 +73,4 @@ def add_to_cart(request, cart_id, product_id):
         defaults={'quantity': 1}
     )
      if not created:
+        cart_item.quantity += 1
