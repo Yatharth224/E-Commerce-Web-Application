@@ -27,7 +27,10 @@ def say_hello(request):
 
 
 
+from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404
+
+from store.models import Cart, Cart_item
 from .models import Product
 
 
@@ -64,3 +67,4 @@ def create_cart(request):
 
 
 def add_to_cart(request, cart_id, product_id):
+    cart_item, created = Cart_item.objects.get_or_create(
