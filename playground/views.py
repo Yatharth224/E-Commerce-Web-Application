@@ -61,3 +61,6 @@ def collection_detail(request, id):
 def create_cart(request):
     cart = Cart.objects.create()
     return JsonResponse({'cart_id': cart.id})
+
+
+def add_to_cart(request, cart_id, product_id):
