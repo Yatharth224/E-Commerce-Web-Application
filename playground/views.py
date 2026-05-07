@@ -65,6 +65,11 @@ def create_cart(request):
     cart = Cart.objects.create()
     return JsonResponse({'cart_id': cart.id})
 
+from django.http import JsonResponse
+from .models import Cart, Cart_item
+
+
+
 
 def add_to_cart(request, cart_id, product_id):
     cart_item, created = Cart_item.objects.get_or_create(
@@ -72,6 +77,7 @@ def add_to_cart(request, cart_id, product_id):
         product_id=product_id,
         defaults={'quantity': 1}
     )
-     if not created:
+    if not created:
         cart_item.quantity += 1
         cart_item.save()
+    return JsonResponse({'message': 'Added to cart'})
