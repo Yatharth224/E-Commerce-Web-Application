@@ -69,4 +69,6 @@ def create_cart(request):
 def add_to_cart(request, cart_id, product_id):
     cart_item, created = Cart_item.objects.get_or_create(
         cart_id=cart_id,
-        roduct_id=product_id,
+        product_id=product_id,
+        defaults={'quantity': 1}
+    )
