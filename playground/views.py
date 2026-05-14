@@ -87,3 +87,5 @@ from .models import Order, OrderItem
 
 def create_order(request, customer_id):
     order = Order.objects.create(customer_id=customer_id)
+    # Normally cart se items uthenge (simplified)
+    
