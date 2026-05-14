@@ -86,4 +86,4 @@ def add_to_cart(request, cart_id, product_id):
 from .models import Order, OrderItem
 
 def create_order(request, customer_id):
- order = Order.objects.create(customer_id=customer_id)
+    order = Order.objects.create(customer_id=customer_id)
