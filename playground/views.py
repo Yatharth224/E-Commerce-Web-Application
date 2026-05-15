@@ -91,3 +91,4 @@ def create_order(request, customer_id):
     return JsonResponse({'order_id': order.id})
 
 from .models import Customer
+def customer_list(request):
