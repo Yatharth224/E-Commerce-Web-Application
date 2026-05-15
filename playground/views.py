@@ -92,4 +92,4 @@ def create_order(request, customer_id):
 
 from .models import Customer
 def customer_list(request):
- customers = Customer.objects.all()    
+    customers = Customer.objects.all()    
