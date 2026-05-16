@@ -89,7 +89,7 @@ from .models import Order, OrderItem
 
 def create_order(request, customer_id):
     order = Order.objects.create(customer_id=customer_id)
-     Normally cart se items uthenge (simplified)
+    # Normally cart se items uthenge (simplified)
     return JsonResponse({'order_id': order.id})
 
 from .models import Customer
