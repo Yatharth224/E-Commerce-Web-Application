@@ -35,7 +35,8 @@ from django.shortcuts import render, get_object_or_404
 from store.models import Cart, Cart_item
 from .models import Product
 from .models import Order, OrderItem
-
+from django.http import JsonResponse
+from .models import Cart, Cart_item
 
 def product_list(request):
     products = Product.objects.all()
