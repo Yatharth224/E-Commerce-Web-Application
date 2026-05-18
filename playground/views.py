@@ -38,6 +38,12 @@ from .models import Order, OrderItem
 from django.http import JsonResponse
 from .models import Cart, Cart_item
 
+from django.http import JsonResponse
+from .models import Cart, Cart_item
+
+
+
+
 def product_list(request):
     products = Product.objects.all()
     return render(request, 'products/list.html', {'products': products})
