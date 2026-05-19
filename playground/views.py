@@ -36,7 +36,6 @@ from store.models import Cart, Cart_item
 from .models import Product
 from .models import Order, OrderItem
 from django.http import JsonResponse
-from .models import Cart, Cart_item
 
 
 
