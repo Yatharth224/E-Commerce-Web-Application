@@ -41,7 +41,7 @@ from .models import Cart, Cart_item
 
 
 from django.http import JsonResponse
-from .models import Cart, Cart_item
+
 
 
 
