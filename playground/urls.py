@@ -19,7 +19,6 @@ urlpatterns = [
      
     path('orders/create/<int:customer_id>/', views.create_order, name='create-order'),
 
-      # Customer URLs
     path('customers/', views.customer_list, name='customer-list'),
 
 ]
