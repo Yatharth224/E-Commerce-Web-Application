@@ -22,5 +22,4 @@ urlpatterns = [
 
     path('customers/', views.customer_list, name='customer-list'),
 
-
 ]
